@@ -1,5 +1,5 @@
-<h1>Create user</h1>
-<p>USER CREATION FORM</p>
+<h1>Edit user</h1>
+<p>USER Edit FORM</p>
 
 <!--
 <form action="/users" method="POST" accept-charset="UTF-8">
@@ -22,7 +22,7 @@
   <%= email_field_tag :email, nil%><br><br>
   <%= label_tag :password, 'password' %><br><br>
   <%= password_field_tag :password, nil%><br><br>
-  <%= submit_tag "Create user" %>
+  <%= submit_tag "Update user" %>
 <% end %>
  -->
 
@@ -33,5 +33,5 @@
   <%= f.email_field :email, placeholder: 'email' %><br><br>
   <%= f.label :password, 'password' %><br><br>
   <%= f.password_field :password%><br><br>
-  <%= f.submit "Create user" %>
+  <%= f.submit "Update user" %>
 <% end %>
