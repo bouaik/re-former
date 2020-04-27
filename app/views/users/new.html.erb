@@ -1,6 +1,14 @@
 <h1>Create user</h1>
 <p>USER CREATION FORM</p>
 
+<% if @user.errors.any? %>
+    <ul>
+        <% @user.errors.full_messages.each do |msg|  %>
+            <li><%= msg %><li>
+        <% end %>
+    </ul>
+<% end %>
+
 <!--
 <form action="/users" method="POST" accept-charset="UTF-8">
   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
