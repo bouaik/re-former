@@ -1,4 +1,4 @@
-# re-former
+# Rails Forms
 
 
 These projects gave us the chance to actually build some forms, both using nearly-pure HTML and then graduating to using the helper methods that Rails provides.. [Microverse](https:www.microverse.org/) - @microverseinc
@@ -8,11 +8,34 @@ These projects gave us the chance to actually build some forms, both using nearl
 ## Built With
 
 - Ruby 
-- Rails
+- Ruby on Rails
 
 ## Run
+
+To run this peoject, you need ruby installed in your environement, you can check by using 
+```
+$ ruby -v
+````
+and you must have rails in you environement, you can check by using 
+
+```
+$ rails -v
+````
+then 
+
 - Clone repo
-- Run bundle install 
+
+- install the required dependencies bu runing 
+
+```
+$ bundle install
+````
+
+then start your server 
+
+```
+$ rails s
+````
 
 ## Authors
 
